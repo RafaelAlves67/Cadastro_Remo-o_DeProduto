@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome, .preco{
+    margin-bottom: 20px;
+}
+
+#btn{
+    height: 40px;
+    text-align: center;
+}
+
+
+.remove{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin: auto;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.remove:hover{
+    background-color: rgb(240, 59, 59);
+}
